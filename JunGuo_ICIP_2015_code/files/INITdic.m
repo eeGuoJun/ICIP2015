@@ -2,7 +2,7 @@ function [Dinit,Xinit] = INITdic(trData,H_train,dictsize)
 % initialization for D and X
 % Input:
 %       trData   -each column is a training sample
-%       H_train  -a one-hot binary matrix (size: nLabel * nSmp)
+%       H_train  -a one-hot binary matrix (size: nClass * nSmp)
 %       dictsize -number of columns in the dictionary
 % Output:
 %       Dinit    -initialized dictionary
