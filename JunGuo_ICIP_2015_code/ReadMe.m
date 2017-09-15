@@ -6,7 +6,7 @@
 %   -Source code version 1.0  2016/03/01 by Jun Guo
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Note 1: 
-% The features (Extended Yale B dataset) used in this code is from 
+% The feature (Extended Yale B dataset) used in this code is from 
 % Dr. Jiang: http://www.umiacs.umd.edu/~zhuolin/projectlcksvd.html.
 % We have already split the original data for this dataset. 
 % For other datasets, we recommend to pre-process data via 'normcols.m'.
