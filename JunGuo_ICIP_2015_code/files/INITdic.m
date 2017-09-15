@@ -43,7 +43,7 @@ params.initdict = normcols(Dinit);
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-function YY = colnorms_squared_new(XX)  % only for save memory
+function YY = colnorms_squared_new(XX) % only for saving memory
 YY = zeros(1,size(XX,2));
 blocksize = 2000;
 for i = 1:blocksize:size(XX,2)
