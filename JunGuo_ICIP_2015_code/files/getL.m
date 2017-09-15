@@ -2,7 +2,7 @@ function L = getL(training_feats,H_train,k,lamda)
 %% Constructing a supervised graph and calculate Laplacian matrix
 % Input:
 %       training_feats  -each column is a data point
-%       H_train         -a one-hot binary matrix (size: nLabel * nSmp)
+%       H_train         -a one-hot binary matrix (size: nClass * nSmp)
 %       k               -number of nearest neighbors
 %       lamda           -regularization parameter, i.e., Ww-lamda*Wb
 % Output:
